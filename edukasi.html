@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Edukasi Kehamilan</title>
+   <!-- Mengimpor Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <!-- Mengimpor Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+    }
+  </script>
+  <!-- SEO Tags -->
+<meta name="description" content="Aplikasi edukasi dan kalkulator kehamilan untuk ibu hamil. Pelajari perkembangan janin berdasarkan usia kandungan." />
+<meta name="keywords" content="ibu hamil, kehamilan, perkembangan janin, trimester, kalkulator kehamilan, edukasi ibu hamil" />
+<meta name="author" content="Tim Developer Ibu Hamil App" />
+<meta property="og:title" content="Ibu Hamil App - Kalkulator & Edukasi Kehamilan" />
+<meta property="og:description" content="Aplikasi edukatif bagi ibu hamil untuk menghitung usia kandungan dan memahami perkembangan janin." />
+<meta property="og:image" content="icons/icon-512.png" />
+<meta property="og:url" content="https://yourwebsite.com" />
+<meta name="twitter:card" content="summary_large_image" />
+<link rel="canonical" href="https://yourwebsite.com/index.html" />
+<!-- PWA Manifest -->
+<link rel="manifest" href="manifest.json" />
+<meta name="theme-color" content="#db2777" />
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="manifest" href="/site.webmanifest" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+</head>
+
+<body class="bg-pink-50 dark:bg-gray-900 dark:text-white font-sans transition duration-300">
+  <!-- Navbar -->
+  <nav class="bg-pink-500 dark:bg-gray-800 text-white px-6 py-4 shadow-md flex justify-between items-center sticky top-0 z-50">
+    <h1 class="text-xl font-bold flex items-center gap-2">
+      <i class="fas fa-baby"></i> Ibu Hamil App
+    </h1>
+    <div class="flex items-center gap-4">
+      <ul class="flex space-x-4 text-sm md:text-base">
+        <li><a href="index.html" class="hover:underline flex items-center gap-1"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="edukasi.html" class="hover:underline flex items-center gap-1"><i class="fas fa-book-reader"></i> Edukasi</a></li>
+      </ul>
+      <button id="toggleDark" class="ml-4 text-white bg-gray-700 px-3 py-1 rounded text-sm hover:bg-gray-600">
+        <i class="fas fa-moon"></i>
+      </button>
+    </div>
+</nav>
+
+  <!-- Main Content -->
+  <main class="max-w-3xl mx-auto p-6 mt-6 bg-white dark:bg-gray-800 shadow rounded">
+    <h2 class="text-2xl font-semibold mb-4 text-pink-700 dark:text-pink-300">Tips Kehamilan Sehat</h2>
+
+    <div class="space-y-6 text-gray-700 dark:text-gray-200">
+      <section>
+  <div class="mb-4">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/vMHusrpUwFI"
+      title="Trimester 1 Kehamilan" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+  
+  <h3 class="text-lg font-bold">Trimester 1 (0-12 minggu)</h3>
+  <p>Mual, lelah, dan perubahan hormon sering terjadi. Perbanyak istirahat, konsumsi vitamin, dan hindari makanan mentah.</p>
+  <p><strong>Perkembangan janin:</strong> Janin mulai terbentuk organ-organ utama seperti jantung, otak, dan tulang belakang.</p>
+</section>
+
+      <section>
+  <div class="mb-4">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/lDFvCnHnwTg"
+      title="Trimester 2 Kehamilan" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <h3 class="text-lg font-bold">Trimester 2 (13-27 minggu)</h3>
+  <p>Perut mulai membesar, janin mulai bergerak. Mulai olahraga ringan seperti jalan kaki atau yoga prenatal.</p>
+  <p><strong>Perkembangan janin:</strong> Janin bisa mendengar suara, wajah mulai terbentuk, dan gerakan terasa lebih aktif.</p>
+</section>
+
+      <section>
+  <div class="mb-4">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/Zyt96hGDguw"
+      title="Trimester 3 Kehamilan" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <h3 class="text-lg font-bold">Trimester 3 (28-40 minggu)</h3>
+  <p>Waktu persalinan semakin dekat. Siapkan mental dan perlengkapan melahirkan, serta rutin periksa ke fasilitas kesehatan.</p>
+  <p><strong>Perkembangan janin:</strong> Organ paru-paru berkembang sempurna, berat badan janin bertambah, dan kepala mulai turun ke panggul.</p>
+</section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-center mt-12 text-gray-600 dark:text-gray-300 p-4 text-sm">
+    &copy; 2025 Aplikasi Ibu Hamil | Edukasi untuk Bunda Hebat
+  </footer>
+
+  <!-- Script Toggle Dark Mode -->
+  <script>
+    const toggle = document.getElementById('toggleDark');
+    const html = document.documentElement;
+
+    // Cek preferensi tersimpan
+    if (localStorage.getItem('theme') === 'dark') {
+      html.classList.add('dark');
+      toggle.innerHTML = '<i class="fas fa-sun"></i>';
+    }
+
+    toggle.addEventListener('click', () => {
+      html.classList.toggle('dark');
+
+      if (html.classList.contains('dark')) {
+        localStorage.setItem('theme', 'dark');
+        toggle.innerHTML = '<i class="fas fa-sun"></i>';
+      } else {
+        localStorage.setItem('theme', 'light');
+        toggle.innerHTML = '<i class="fas fa-moon"></i>';
+      }
+    });
+  </script>
+  <script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('service-worker.js')
+        .then(reg => console.log('SW registered!', reg))
+        .catch(err => console.error('SW failed!', err));
+    });
+  }
+</script>
+</body>
+
+</html>

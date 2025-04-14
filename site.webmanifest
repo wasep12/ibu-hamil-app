@@ -1,0 +1,23 @@
+{
+  "name": "Ibu Hamil App",
+  "short_name": "IbuHamil",
+  "description": "Aplikasi edukasi & kalkulator kehamilan untuk ibu hamil.",
+  "icons": [
+    {
+      "src": "/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+ "start_url": "index.html",
+"display": "standalone",
+"background_color": "#fde8f0",
+"theme_color": "#db2777"
+}
